@@ -1,0 +1,490 @@
+<ide_diagnostics>[
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 3,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 6,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 7,
+    "column": 1,
+    "message": "MD036/no-emphasis-as-heading: Emphasis used instead of a heading",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 44,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 45,
+    "column": 1,
+    "message": "MD058/blanks-around-tables: Tables should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 46,
+    "column": 1,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 46,
+    "column": 11,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 46,
+    "column": 11,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 46,
+    "column": 21,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 46,
+    "column": 21,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 46,
+    "column": 27,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 46,
+    "column": 27,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 46,
+    "column": 33,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 58,
+    "column": 1,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 58,
+    "column": 12,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 58,
+    "column": 12,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 58,
+    "column": 28,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 58,
+    "column": 28,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 58,
+    "column": 38,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 68,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 69,
+    "column": 1,
+    "message": "MD031/blanks-around-fences: Fenced code blocks should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 69,
+    "column": 1,
+    "message": "MD040/fenced-code-language: Fenced code blocks should have a language specified",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 110,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 111,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 112,
+    "column": 12,
+    "message": "MD034/no-bare-urls: Bare URL used",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 119,
+    "column": 15,
+    "message": "MD034/no-bare-urls: Bare URL used",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 123,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 126,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 129,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 132,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 135,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 137,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 139,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 143,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 145,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 151,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 152,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 154,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 155,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 159,
+    "column": 1,
+    "message": "MD022/blanks-around-headings: Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 160,
+    "column": 1,
+    "message": "MD036/no-emphasis-as-heading: Emphasis used instead of a heading",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 169,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 174,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 178,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 186,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 191,
+    "column": 1,
+    "message": "MD058/blanks-around-tables: Tables should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 192,
+    "column": 1,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 192,
+    "column": 8,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 192,
+    "column": 8,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 192,
+    "column": 14,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 192,
+    "column": 14,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the right for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 192,
+    "column": 23,
+    "message": "MD060/table-column-style: Table column style [Table pipe is missing space to the left for style \"compact\"]",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 200,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 208,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 211,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 218,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 224,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 231,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 235,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 241,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/.claude/handoff/khram-spas.md",
+    "line": 248,
+    "column": 1,
+    "message": "MD032/blanks-around-lists: Lists should be surrounded by blank lines",
+    "code": "[object Object]",
+    "severity": "Warning"
+  }
+]</ide_diagnostics>

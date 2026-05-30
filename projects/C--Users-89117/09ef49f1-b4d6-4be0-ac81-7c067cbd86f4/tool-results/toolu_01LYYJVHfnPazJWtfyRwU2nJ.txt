@@ -1,0 +1,350 @@
+khram-spas\components\admin\StaffManager.tsx:16:  full_name: string
+khram-spas\components\admin\StaffManager.tsx:35:  full_name: string
+khram-spas\components\admin\StaffManager.tsx:107:    const res = await createStaffAccount({ full_name: newName.trim(), email: newEmail.trim(), role: newRole })
+khram-spas\components\admin\StaffManager.tsx:152:    if (!confirm(`Переместить «${p.full_name}» в архив? Доступ к платформе будет закрыт.`)) return
+khram-spas\components\admin\StaffManager.tsx:170:    if (!confirm(`Удалить «${p.full_name}» НАВСЕГДА? Это действие необратимо.`)) return
+khram-spas\components\admin\StaffManager.tsx:184:        full_name: p.full_name,
+khram-spas\components\admin\StaffManager.tsx:217:                  ? { ...x, full_name: data.title, rank: data.rank, extra_roles: data.extra_roles }
+khram-spas\components\admin\StaffManager.tsx:230:                <p className="text-sm font-semibold text-navy">{p.full_name}</p>
+khram-spas\components\admin\StaffManager.tsx:268:  // Не показываем abbot в сотрудниках — он рендерится в Клире
+khram-spas\components\admin\StaffManager.tsx:269:  const staffWithoutAbbot = staff.filter(s => s.role !== 'abbot')
+khram-spas\components\admin\StaffManager.tsx:319:              {tab === 'staff' ? `👥 Сотрудники · ${staffWithoutAbbot.length + activePriests.length + staff.filter(s=>s.role==='abbot').length}` : '🔐 Роли'}
+khram-spas\components\admin\StaffManager.tsx:432:          const abbots = staff.filter(s => s.role === 'abbot')
+khram-spas\components\admin\StaffManager.tsx:440:          const totalClir = abbots.length + activePriests.length
+khram-spas\components\admin\StaffManager.tsx:461:                  {abbots.length > 0 && (
+khram-spas\components\admin\StaffManager.tsx:465:                        {abbots.map(s => (
+khram-spas\components\admin\StaffManager.tsx:607:                        <p className="text-sm font-semibold text-navy">{p.full_name}</p>
+khram-spas\components\admin\StaffManager.tsx:632:                        <p className="text-sm font-semibold text-navy">{s.full_name}</p>
+khram-spas\components\admin\StaffManager.tsx:644:                        onClick={() => handleDeleteStaff(s.id, s.full_name)}
+khram-spas\components\admin\StaffManager.tsx:682:  const [title,     setTitle]     = useState(p.full_name)
+khram-spas\components\admin\StaffManager.tsx:695:    const savedTitle = title.trim() || p.full_name
+khram-spas\components\admin\StaffManager.tsx:868:  const [newName, setNewName]         = useState(s.full_name)
+khram-spas\components\admin\StaffManager.tsx:899:              <button onClick={() => { setNewName(s.full_name); setEditingName(false) }}
+khram-spas\components\admin\StaffManager.tsx:910:              <p className="text-sm font-semibold text-navy">{s.full_name}</p>
+khram-spas\components\admin\StaffManager.tsx:1010:            <button onClick={() => onArchive(s.id, s.full_name)}
+khram-spas\components\admin\PriestsManager.tsx:14:    full_name: string
+khram-spas\components\admin\PriestsManager.tsx:70:                  <p className="text-sm text-text-muted mt-0.5">{priest.profile.full_name}</p>
+khram-spas\components\schedule\FloristScheduleView.tsx:127:                    {b.parishioner_name && <p className="text-xs text-text-muted mt-0.5">👤 {b.parishioner_name}</p>}
+khram-spas\components\schedule\PsalterModal.tsx:96:      setFName(existing.reader_name)
+khram-spas\components\schedule\PsalterModal.tsx:128:      reader_name: fName.trim(),
+khram-spas\components\schedule\PsalterModal.tsx:398:              {reading.reader_name}
+khram-spas\components\schedule\PsalterModal.tsx:434:              {reading.reader_name}
+khram-spas\components\schedule\PriestsModal.tsx:13:  profile: { id: string; full_name: string } | null
+khram-spas\components\schedule\PriestsModal.tsx:61:    const result = await createPriest({ full_name: fullName, rank, title, email, password })
+khram-spas\components\schedule\PriestsModal.tsx:96:                      {p.profile?.full_name}
+khram-spas\components\schedule\AltarScheduleView.tsx:100:                (a: any) => a.role !== 'altar' && a.priest?.profile?.full_name
+khram-spas\components\schedule\AltarScheduleView.tsx:103:              const clergyNames = [...new Set(clergy.map((a: any) => a.priest.profile.full_name as string))]
+khram-spas\components\schedule\PriestScheduleView.tsx:117:                  (a: any) => a.role !== 'altar' && a.priest?.profile?.full_name
+khram-spas\components\schedule\PriestScheduleView.tsx:159:                              <span className="font-medium text-navy">{a.priest?.profile?.full_name}</span>
+khram-spas\components\schedule\PriestScheduleView.tsx:231:                          {b.parishioner_name && (
+khram-spas\components\schedule\PriestScheduleView.tsx:232:                            <p className="text-xs text-text-muted mt-0.5">👤 {b.parishioner_name}</p>
+khram-spas\components\schedule\PriestScheduleView.tsx:284:                          {b.parishioner_name && (
+khram-spas\components\schedule\PriestScheduleView.tsx:285:                            <p className="text-xs text-text-muted mt-0.5">👤 {b.parishioner_name}</p>
+khram-spas\app\welcome\page.tsx:16:    .select('full_name, role')
+khram-spas\app\welcome\page.tsx:27:        {profile?.full_name && (
+khram-spas\app\welcome\page.tsx:28:          <p className="text-text-muted mb-1">Добро пожаловать, {profile.full_name}</p>
+khram-spas\components\schedule\SeniorAltarView.tsx:146:              .map((a: any) => a.priest?.title ?? a.priest?.profile?.full_name ?? '')
+khram-spas\components\schedule\SeniorAltarView.tsx:151:              (a: any) => a.role !== 'altar' && (a.priest?.profile?.full_name || a.priest?.title)
+khram-spas\components\schedule\SeniorAltarView.tsx:154:              clergy.map((a: any) => a.priest?.profile?.full_name ?? a.priest?.title ?? '')
+khram-spas\components\schedule\ScheduleView.tsx:31:  full_name: string
+khram-spas\components\schedule\ScheduleView.tsx:63:  const isAdmin = canEdit ?? (userRole === 'abbot' || userRole === 'admin' || userRole === 'moderator' || userRole === 'developer')
+khram-spas\components\schedule\ScheduleView.tsx:117:          {(userRole === 'abbot' || userRole === 'secretary') && (
+khram-spas\components\schedule\ScheduleView.tsx:185:          {(userRole === 'abbot' || userRole === 'secretary') && (
+khram-spas\components\schedule\ScheduleView.tsx:490:                          <p className="text-sm font-medium text-navy">{p.full_name}</p>
+khram-spas\app\florist\schedule\page.tsx:18:    .select('full_name, role')
+khram-spas\app\florist\schedule\page.tsx:24:  return <FloristScheduleView userName={profile.full_name} />
+khram-spas\components\schedule\UsersModal.tsx:8:  full_name: string
+khram-spas\components\schedule\UsersModal.tsx:13:  abbot: 'Настоятель',
+khram-spas\components\schedule\UsersModal.tsx:20:  abbot: 'bg-gold/10 text-gold',
+khram-spas\components\schedule\UsersModal.tsx:60:    const result = await createAdminUser({ full_name: fullName, email, password })
+khram-spas\components\schedule\UsersModal.tsx:89:                const isAbbot = user.role === 'abbot'
+khram-spas\components\schedule\UsersModal.tsx:96:                      <p className="text-sm font-medium text-navy">{user.full_name}</p>
+khram-spas\components\schedule\RegentScheduleView.tsx:138:                          {b.parishioner_name && (
+khram-spas\components\schedule\RegentScheduleView.tsx:139:                            <p className="text-xs text-text-muted mt-0.5">👤 {b.parishioner_name}</p>
+khram-spas\components\schedule\AbbotScheduleModal.tsx:9:} from '@/app/actions/abbot-schedule'
+khram-spas\components\schedule\AbbotScheduleModal.tsx:13:  canEdit: boolean   // abbot, admin, it_staff
+khram-spas\app\senior-altar\schedule\page.tsx:18:    .select('role, full_name')
+khram-spas\app\senior-altar\schedule\page.tsx:25:    <SeniorAltarView userName={profile.full_name} />
+khram-spas\components\schedule\TasksModal.tsx:25:  abbot: 'Настоятель', admin: 'Администратор', priest: 'Священник', deacon: 'Дьякон',
+khram-spas\components\schedule\TasksModal.tsx:33:  { label: 'Настоятель',    roles: ['abbot'] },
+khram-spas\components\schedule\TasksModal.tsx:57:              <option key={p.id} value={p.id}>{p.full_name}</option>
+khram-spas\components\schedule\TasksModal.tsx:83:  const isAbbot = userRole === 'abbot' || userRole === 'admin' || userRole === 'developer'
+khram-spas\components\schedule\TasksModal.tsx:459:        <p className="text-xs text-text-muted mt-0.5">👤 {task.assignee.full_name}</p>
+khram-spas\components\schedule\TasksModal.tsx:465:          🔏 Выдал: {task.creator.full_name}
+khram-spas\components\schedule\ServiceCard.tsx:28:    const name = a.priest?.profile?.full_name ?? '—'
+khram-spas\components\schedule\ServiceCard.tsx:47:      names.push(a.priest?.profile?.full_name ?? a.priest?.title ?? '—')
+khram-spas\components\schedule\StaffModal.tsx:26:  full_name: string
+khram-spas\components\schedule\StaffModal.tsx:36:  abbot: 'Настоятель',
+khram-spas\components\schedule\StaffModal.tsx:69:  full_name: string
+khram-spas\components\schedule\StaffModal.tsx:81:  const isAbbot = userRole === 'abbot'
+khram-spas\components\schedule\StaffModal.tsx:185:    await setStaffAssignable(p.id, p.full_name, assignable)
+khram-spas\components\schedule\StaffModal.tsx:205:        full_name: editingName.trim(),
+khram-spas\components\schedule\StaffModal.tsx:289:    const result = await createPriest({ full_name: pFullName, rank: pRank, title, email: pEmail, password: pPassword })
+khram-spas\components\schedule\StaffModal.tsx:333:    const result = await createRegent({ full_name: rFullName, email: rEmail, password: rPassword })
+khram-spas\components\schedule\StaffModal.tsx:347:    const result = await createAdminUser({ full_name: sFullName, email: sEmail, password: sPassword })
+khram-spas\components\schedule\StaffModal.tsx:403:                const isPersonAbbot = p.role === 'abbot'
+khram-spas\components\schedule\StaffModal.tsx:404:                const isAdmin = p.role === 'admin' || p.role === 'moderator' || p.role === 'abbot' || p.role === 'moderator'
+khram-spas\components\schedule\StaffModal.tsx:776:                        <p className="text-xs text-text-muted mb-2">Новый пароль для <span className="font-medium text-navy">{p.full_name}</span></p>
+khram-spas\components\schedule\StaffModal.tsx:802:                            <button onClick={() => startEdit(p.id, p.full_name)}
+khram-spas\components\schedule\StaffModal.tsx:805:                              {p.full_name} <span className="text-text-muted/40 text-xs">✎</span>
+khram-spas\components\schedule\StaffModal.tsx:823:                            <button onClick={() => handleDelete(p.id, p.full_name)} disabled={deleting === p.id}
+khram-spas\components\schedule\StaffModal.tsx:889:                const isAbbot = p.role === 'abbot'
+khram-spas\components\schedule\StaffModal.tsx:930:                          <button onClick={() => startEdit(p.id, p.full_name)} className="text-sm font-medium text-navy hover:text-forest transition-colors text-left truncate max-w-full">
+khram-spas\components\schedule\StaffModal.tsx:931:                            {p.full_name} <span className="text-text-muted/40 text-xs">✎</span>
+khram-spas\app\priest\schedule\page.tsx:18:    .select('role, full_name')
+khram-spas\app\priest\schedule\page.tsx:37:      userName={profile.full_name}
+khram-spas\components\psalter\PsalterPublicView.tsx:43:      reader_name: name.trim(),
+khram-spas\app\regent\schedule\page.tsx:18:    .select('role, full_name')
+khram-spas\app\regent\schedule\page.tsx:25:    <RegentScheduleView userName={profile.full_name} />
+khram-spas\app\altar\schedule\page.tsx:18:    .select('role, full_name')
+khram-spas\app\altar\schedule\page.tsx:36:      userName={profile.full_name}
+khram-spas\components\booking\SlotsModal.tsx:23:  parishioner_name: string | null
+khram-spas\components\booking\SlotsModal.tsx:101:              {booking.parishioner_name ?? '—'}
+khram-spas\lib\staff-constants.ts:72:  'abbot', 'developer', 'admin', 'moderator', 'secretary', 'staff',
+khram-spas\lib\role-defaults.ts:60:// Все роли для панели управления ролями (без abbot — он всегда имеет всё)
+khram-spas\lib\role-defaults.ts:93:  abbot:           ALL,
+khram-spas\lib\role-defaults.ts:118:  abbot: {
+khram-spas\components\booking\BookingsModal.tsx:283:            <p className="text-sm font-medium text-navy">{b.parishioner_name ?? '—'}</p>
+khram-spas\components\booking\BookingsModal.tsx:467:            <p className="text-xs text-text-muted truncate">{b.parishioner_name}</p>
+khram-spas\components\booking\BookingView.tsx:12:import { submitAbbotAppeal, submitMeetingRequest } from '@/app/actions/abbot-schedule'
+khram-spas\components\booking\BookingView.tsx:36:  | 'abbot_reception' // приёмная настоятеля (меню)
+khram-spas\components\booking\BookingView.tsx:37:  | 'abbot_appeal'    // форма обращения к настоятелю
+khram-spas\components\booking\BookingView.tsx:38:  | 'abbot_meeting'   // форма записи на встречу
+khram-spas\components\booking\BookingView.tsx:42:type DoneSection = 'rite' | 'home' | 'conversation' | 'funeral' | 'abbot'
+khram-spas\components\booking\BookingView.tsx:186:  abbotName?: string
+khram-spas\components\booking\BookingView.tsx:187:  abbotPhone?: string
+khram-spas\components\booking\BookingView.tsx:190:export function BookingView({ initialSlots, publicServices, riteSlots, greatFeastDates = [], abbotName, abbotPhone }: Props) {
+khram-spas\components\booking\BookingView.tsx:279:      parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:297:      parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:315:      parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:332:        parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:346:        parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:364:      parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:377:      parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:384:    setDoneSection('abbot'); setStep('done')
+khram-spas\components\booking\BookingView.tsx:391:      parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:397:    setDoneSection('abbot'); setStep('done')
+khram-spas\components\booking\BookingView.tsx:409:      parishioner_name: name,
+khram-spas\components\booking\BookingView.tsx:427:      abbot:        { title: 'Обращение отправлено', text: 'Настоятель получит ваше обращение. При необходимости с вами свяжутся по указанному телефону.' },
+khram-spas\components\booking\BookingView.tsx:437:        {abbotPhone && (
+khram-spas\components\booking\BookingView.tsx:438:          <a href={`tel:${abbotPhone}`} className="text-sm text-forest font-medium hover:underline block mt-3">
+khram-spas\components\booking\BookingView.tsx:439:            📞 {abbotPhone.replace(/(\+7)(\d{3})(\d{3})(\d{2})(\d{2})/, '$1 ($2) $3-$4-$5')}
+khram-spas\components\booking\BookingView.tsx:491:        <button onClick={() => setStep('abbot_reception')}
+khram-spas\components\booking\BookingView.tsx:561:                          leaders.push({ name, isAbbot: a.priest?.profile?.role === 'abbot' })
+khram-spas\components\booking\BookingView.tsx:1863:  if (step === 'abbot_reception') {
+khram-spas\components\booking\BookingView.tsx:1876:              {abbotName && <p className="text-xs text-text-muted">{abbotName}</p>}
+khram-spas\components\booking\BookingView.tsx:1889:          <button onClick={() => { reset(); setStep('abbot_appeal') }}
+khram-spas\components\booking\BookingView.tsx:1901:          <button onClick={() => { reset(); setStep('abbot_meeting') }}
+khram-spas\components\booking\BookingView.tsx:1919:  if (step === 'abbot_appeal') {
+khram-spas\components\booking\BookingView.tsx:1923:        <button onClick={() => setStep('abbot_reception')} className="text-xs text-text-muted hover:text-navy">← Назад</button>
+khram-spas\components\booking\BookingView.tsx:1978:  if (step === 'abbot_meeting') {
+khram-spas\components\booking\BookingView.tsx:1981:        <button onClick={() => setStep('abbot_reception')} className="text-xs text-text-muted hover:text-navy">← Назад</button>
+khram-spas\app\admin\access\page.tsx:105:                      <td className="px-3 py-2 font-medium" style={{ color: '#2C1810' }}>{s.full_name}</td>
+khram-spas\app\admin\import\page.tsx:102:                          <td className="px-3 py-2 font-medium" style={{ color: '#2C1810' }}>{r.full_name}</td>
+khram-spas\app\admin\import\page.tsx:125:                      {r.full_name}
+khram-spas\app\admin\import\page.tsx:140:                    <strong>{r.full_name}</strong>: {r.error}
+khram-spas\app\admin\schedule\page.tsx:19:    .select('role, full_name')
+khram-spas\app\admin\schedule\page.tsx:29:    .select('*, profile:profiles(id, full_name, role)')
+khram-spas\app\admin\schedule\page.tsx:47:    .select('id, full_name, link_code, telegram_chat_id')
+khram-spas\app\admin\schedule\page.tsx:48:    .in('role', ['admin', 'abbot'])
+khram-spas\app\admin\schedule\page.tsx:57:      userName={profile.full_name}
+khram-spas\app\book\page.tsx:16:  const [slots, services, riteSlots, greatFeastDates, abbotInfo] = await Promise.all([
+khram-spas\app\book\page.tsx:48:          abbotName={abbotInfo?.full_name}
+khram-spas\app\book\page.tsx:49:          abbotPhone={abbotInfo?.phone ?? undefined}
+khram-spas\app\admin\staff\page.tsx:20:  const allowed = ['abbot', 'developer']
+khram-spas\app\admin\staff\page.tsx:23:  const priestSelect = 'id, title, rank, is_active, extra_roles, profile:profiles(id, full_name, role, link_code, telegram_chat_id, max_chat_id)'
+khram-spas\app\admin\staff\page.tsx:37:      full_name: p.title,
+khram-spas\app\actions\bookings.ts:62:    .in('role', ['abbot', 'admin'])
+khram-spas\app\actions\bookings.ts:66:// Уведомить только настоятеля (abbot) — для выездных треб, которые он назначает сам
+khram-spas\app\actions\bookings.ts:72:    .eq('role', 'abbot')
+khram-spas\app\actions\bookings.ts:96:    `👤 ${booking.parishioner_name ?? '—'}\n` +
+khram-spas\app\actions\bookings.ts:173:  const abbotMsg = action === 'accept'
+khram-spas\app\actions\bookings.ts:174:    ? `✅ <b>${priestName}</b> подтвердил требу:\n📌 ${typeLabel}\n👤 ${booking.parishioner_name ?? ''}`
+khram-spas\app\actions\bookings.ts:175:    : `✓ <b>${priestName}</b> исполнил требу:\n📌 ${typeLabel}\n👤 ${booking.parishioner_name ?? ''}`
+khram-spas\app\actions\bookings.ts:176:  const { data: abbot } = await admin.from('profiles').select('telegram_chat_id, max_chat_id').eq('role', 'abbot').single()
+khram-spas\app\actions\bookings.ts:177:  if (abbot) await notifyUser(abbot, abbotMsg)
+khram-spas\app\actions\bookings.ts:213:  const abbotMsg = action === 'accept'
+khram-spas\app\actions\bookings.ts:214:    ? `✅ <b>${priestName}</b> подтвердил требу:\n📌 ${typeLabel}\n👤 ${booking.parishioner_name ?? ''}`
+khram-spas\app\actions\bookings.ts:215:    : `✓ <b>${priestName}</b> исполнил требу:\n📌 ${typeLabel}\n👤 ${booking.parishioner_name ?? ''}`
+khram-spas\app\actions\bookings.ts:216:  const { data: abbot } = await admin.from('profiles').select('telegram_chat_id, max_chat_id').eq('role', 'abbot').single()
+khram-spas\app\actions\bookings.ts:217:  if (abbot) await notifyUser(abbot, abbotMsg)
+khram-spas\app\actions\bookings.ts:268:    if ((a.priest.profile as any)?.role === 'abbot') continue
+khram-spas\app\actions\bookings.ts:317:  parishioner_name: string
+khram-spas\app\actions\bookings.ts:331:    parishioner_name: input.parishioner_name,
+khram-spas\app\actions\bookings.ts:343:      `👤 ${input.parishioner_name}\n` +
+khram-spas\app\actions\bookings.ts:362:  parishioner_name: string
+khram-spas\app\actions\bookings.ts:372:    parishioner_name: input.parishioner_name,
+khram-spas\app\actions\bookings.ts:384:    `👤 ${input.parishioner_name}\n` +
+khram-spas\app\actions\bookings.ts:394:    input.parishioner_name
+khram-spas\app\actions\bookings.ts:407:  parishioner_name: string
+khram-spas\app\actions\bookings.ts:422:    parishioner_name: input.parishioner_name,
+khram-spas\app\actions\bookings.ts:435:    `👤 ${input.parishioner_name}\n` +
+khram-spas\app\actions\bookings.ts:485:      booking.parishioner_name ?? ''
+khram-spas\app\actions\bookings.ts:774:    `👤 ${booking.parishioner_name ?? '—'}\n` +
+khram-spas\app\actions\bookings.ts:791:    `👤 ${booking.parishioner_name ?? '—'}\n` +
+khram-spas\app\actions\bookings.ts:869:    (booking?.parishioner_name ? `\n👤 ${booking.parishioner_name}` : '') +
+khram-spas\app\actions\bookings.ts:893:    (booking?.parishioner_name ? `\n👤 ${booking.parishioner_name}` : '') +
+khram-spas\app\actions\otp-login.ts:39:    .select('id, full_name, telegram_chat_id, max_chat_id')
+khram-spas\app\actions\otp-login.ts:47:    ? await admin.from('profiles').select('id, full_name, telegram_chat_id, max_chat_id')
+khram-spas\app\admin\priests\page.tsx:12:    .select('role, full_name')
+khram-spas\app\admin\priests\page.tsx:16:  if (!profile || !['abbot', 'admin', 'developer'].includes(profile.role)) redirect('/dashboard')
+khram-spas\app\admin\priests\page.tsx:20:    .select('*, profile:profiles(id, full_name, phone, telegram_chat_id)')
+khram-spas\app\actions\abbot-schedule.ts:35:    .from('abbot_schedule')
+khram-spas\app\actions\abbot-schedule.ts:61:  const { error } = await admin.from('abbot_schedule').insert({
+khram-spas\app\actions\abbot-schedule.ts:77:  await admin.from('abbot_schedule').delete().eq('id', id)
+khram-spas\app\actions\abbot-schedule.ts:84:  parishioner_name: string
+khram-spas\app\actions\abbot-schedule.ts:94:    booking_type: 'abbot_appeal',
+khram-spas\app\actions\abbot-schedule.ts:95:    parishioner_name: input.parishioner_name,
+khram-spas\app\actions\abbot-schedule.ts:112:    .in('role', ['abbot', 'admin', 'secretary'])
+khram-spas\app\actions\abbot-schedule.ts:116:    `👤 ${input.parishioner_name}\n` +
+khram-spas\app\actions\abbot-schedule.ts:128:  parishioner_name: string
+khram-spas\app\actions\abbot-schedule.ts:137:    booking_type: 'abbot_meeting',
+khram-spas\app\actions\abbot-schedule.ts:138:    parishioner_name: input.parishioner_name,
+khram-spas\app\actions\abbot-schedule.ts:151:    .in('role', ['abbot', 'admin'])
+khram-spas\app\actions\abbot-schedule.ts:155:    `👤 ${input.parishioner_name}\n` +
+khram-spas\app\actions\access.ts:15:  full_name: string
+khram-spas\app\actions\access.ts:31:    .select('id, full_name, role, phone, link_code, telegram_chat_id, max_chat_id')
+khram-spas\app\actions\access.ts:34:    .order('full_name')
+khram-spas\app\actions\access.ts:47:    full_name: p.full_name,
+khram-spas\app\actions\access.ts:69:    `👤 *${m.full_name}*`,
+khram-spas\app\actions\access.ts:133:  const { data: abbot } = await admin
+khram-spas\app\actions\access.ts:135:    .select('telegram_chat_id, full_name')
+khram-spas\app\actions\access.ts:136:    .eq('role', 'abbot')
+khram-spas\app\actions\access.ts:140:  if (!abbot?.telegram_chat_id) {
+khram-spas\app\actions\access.ts:145:  const toSend = staff.filter(s => s.role !== 'abbot' && s.role !== 'developer')
+khram-spas\app\actions\access.ts:150:    abbot.telegram_chat_id,
+khram-spas\app\actions\access.ts:157:    const ok = await sendTelegram(botToken, abbot.telegram_chat_id, text)
+khram-spas\app\actions\tasks.ts:295:    const { data: ap } = await admin.from('profiles').select('full_name').eq('id', task.assignee_id).single()
+khram-spas\app\actions\tasks.ts:296:    if (ap?.full_name) assigneeName = ap.full_name
+khram-spas\app\actions\tasks.ts:298:  const abbotMsg = action === 'accept'
+khram-spas\app\actions\tasks.ts:301:  await notifyTaskResponse(abbotMsg)
+khram-spas\app\actions\tasks.ts:345:    const { data: ap } = await admin.from('profiles').select('full_name').eq('id', task.assignee_id).single()
+khram-spas\app\actions\tasks.ts:346:    if (ap?.full_name) assigneeName = ap.full_name
+khram-spas\app\actions\tasks.ts:348:  const abbotMsg = action === 'accept'
+khram-spas\app\actions\tasks.ts:351:  await notifyTaskResponse(abbotMsg)
+khram-spas\app\actions\tasks.ts:375:      .from('profiles').select('id, full_name').in('id', ids)
+khram-spas\app\actions\tasks.ts:376:    for (const p of profiles ?? []) nameMap[p.id] = p.full_name
+khram-spas\app\actions\tasks.ts:381:    assignee: t.assignee_id ? { id: t.assignee_id, full_name: nameMap[t.assignee_id] ?? '—' } : null,
+khram-spas\app\actions\tasks.ts:382:    creator:  t.created_by  ? { id: t.created_by,  full_name: nameMap[t.created_by]  ?? '—' } : null,
+khram-spas\app\actions\tasks.ts:444:    const { data: ap } = await admin.from('profiles').select('full_name').eq('id', task.assignee_id).single()
+khram-spas\app\actions\tasks.ts:445:    if (ap?.full_name) assigneeName = ap.full_name
+khram-spas\app\actions\tasks.ts:461:    .select('id, full_name, role')
+khram-spas\app\actions\tasks.ts:463:    .order('full_name')
+khram-spas\app\actions\bulk-import.ts:17:  { full_name: 'Леликов Иван Сергеевич',               phone: '+7 (911) 123-06-71', role: 'senior_altarnik' },
+khram-spas\app\actions\bulk-import.ts:18:  { full_name: 'Полторацкий Александр Михайлович',      phone: '+7 (951) 655-62-89', role: 'altarnik' },
+khram-spas\app\actions\bulk-import.ts:19:  { full_name: 'Полторацкий Александр Александрович',   phone: '+7 (951) 676-87-81', role: 'altarnik' },
+khram-spas\app\actions\bulk-import.ts:22:  { full_name: 'Анастасия Дейнес',                      phone: '+7 (964) 341-28-88', role: 'staff' },    // матушка
+khram-spas\app\actions\bulk-import.ts:23:  { full_name: 'Полковникова Вера Васильевна',           phone: '+7 (921) 429-13-14', role: 'staff' },    // казначей
+khram-spas\app\actions\bulk-import.ts:24:  { full_name: 'Павлова Елена Александровна',            phone: '+7 (911) 214-80-84', role: 'staff' },    // бухгалтер
+khram-spas\app\actions\bulk-import.ts:25:  { full_name: 'Александра Алексеевна Уличева',          phone: '+7 (911) 217-55-47', role: 'staff' },    // организатор
+khram-spas\app\actions\bulk-import.ts:28:  { full_name: 'Подорога Маргарита Ильинична',           phone: '+7 (910) 321-35-22', role: 'secretary' },
+khram-spas\app\actions\bulk-import.ts:29:  { full_name: 'Крыт Анастасия Алексеевна',              phone: '+7 (931) 376-41-53', role: 'moderator' },
+khram-spas\app\actions\bulk-import.ts:32:  { full_name: 'Денисов Илья Александрович',             phone: '+7 (911) 944-86-71', role: 'it_staff' }, // завхоз
+khram-spas\app\actions\bulk-import.ts:33:  { full_name: 'Денисов Александр Михайлович',           phone: '+7 (911) 253-59-07', role: 'staff' },    // рабочий
+khram-spas\app\actions\bulk-import.ts:36:  { full_name: 'Семенов Александр Геннадьевич',          phone: '+7 (931) 391-78-50', role: 'security' },
+khram-spas\app\actions\bulk-import.ts:37:  { full_name: 'Буряк Эдуард Николаевич',                phone: '+7 (953) 372-98-95', role: 'security' },
+khram-spas\app\actions\bulk-import.ts:38:  { full_name: 'Лиханов Денис Викторович',               phone: '+7 (952) 382-80-46', role: 'security' },
+khram-spas\app\actions\bulk-import.ts:39:  { full_name: 'Поздняков Сергей Владимирович',           phone: '+7 (901) 309-22-47', role: 'security' },
+khram-spas\app\actions\bulk-import.ts:42:  { full_name: 'Дадаева Валентина Петровна',             phone: '+7 (912) 172-74-93', role: 'cleaner' },  // старшая
+khram-spas\app\actions\bulk-import.ts:43:  { full_name: 'Сырых Тамара Николаевна',                phone: '+7 (960) 259-29-70', role: 'cleaner' },
+khram-spas\app\actions\bulk-import.ts:44:  { full_name: 'Пашкова Светлана Борисовна',             phone: '+7 (906) 267-84-34', role: 'cleaner' },
+khram-spas\app\actions\bulk-import.ts:45:  { full_name: 'Макарова Юлия Юрьевна',                  phone: '+7 (921) 370-32-19', role: 'cleaner' },
+khram-spas\app\actions\bulk-import.ts:46:  { full_name: 'Васяркина Светлана Алексеевна',           phone: '+7 (952) 356-23-84', role: 'cleaner' },
+khram-spas\app\actions\bulk-import.ts:47:  { full_name: 'Цветкова Марина Викторовна',              phone: '+7 (911) 682-84-77', role: 'cleaner' },
+khram-spas\app\actions\bulk-import.ts:50:  { full_name: 'Ракитина Тамара Викторовна',             phone: '+7 (951) 189-74-06', role: 'candle_seller' }, // старшая
+khram-spas\app\actions\bulk-import.ts:51:  { full_name: 'Бессараб Лилия Николаевна',              phone: '+7 (905) 212-15-19', role: 'candle_seller' }, // орг паломнических + свечница
+khram-spas\app\actions\bulk-import.ts:52:  { full_name: 'Кисленко Ирина Леонидовна',              phone: '+7 (911) 083-39-90', role: 'candle_seller' },
+khram-spas\app\actions\bulk-import.ts:53:  { full_name: 'Наронская Валентина Павловна',            phone: '+7 (906) 277-01-40', role: 'candle_seller' },
+khram-spas\app\actions\bulk-import.ts:56:  { full_name: 'Калинина Наталья Викторовна',            phone: '+7 (951) 689-27-20', role: 'florist' },  // режиссёр ВШ/свечница/флорист
+khram-spas\app\actions\bulk-import.ts:59:  { full_name: 'Колосова Александра Владимировна',        phone: '+7 (952) 357-31-03', role: 'cook' },
+khram-spas\app\actions\bulk-import.ts:60:  { full_name: 'Трунов Алексей Владимирович',             phone: '+7 (914) 176-26-09', role: 'cook' },
+khram-spas\app\actions\bulk-import.ts:81:  full_name: string
+khram-spas\app\actions\bulk-import.ts:100:    .select('full_name, id')
+khram-spas\app\actions\bulk-import.ts:103:    (existingProfiles ?? []).map(p => p.full_name.trim().toLowerCase())
+khram-spas\app\actions\bulk-import.ts:109:    const nameKey = person.full_name.trim().toLowerCase()
+khram-spas\app\actions\bulk-import.ts:129:        user_metadata: { full_name: person.full_name, role: person.role },
+khram-spas\app\actions\bulk-import.ts:148:        full_name: person.full_name,
+khram-spas\app\actions\schedule.ts:37:        priest:priests(*, profile:profiles(id, full_name))
+khram-spas\app\actions\schedule.ts:70:        priest:priests(*, profile:profiles(id, full_name))
+khram-spas\app\actions\schedule.ts:130:    .select('id, title, rank, is_active, link_code, telegram_chat_id, profile:profiles(id, full_name)')
+khram-spas\app\actions\schedule.ts:136:  full_name: string
+khram-spas\app\actions\schedule.ts:157:    full_name: input.full_name,
+khram-spas\app\actions\schedule.ts:183:    .select('id, full_name, role')
+khram-spas\app\actions\schedule.ts:184:    .order('full_name')
+khram-spas\app\actions\schedule.ts:194:    .neq('role', 'abbot')
+khram-spas\app\actions\schedule.ts:198:  full_name: string
+khram-spas\app\actions\schedule.ts:217:    full_name: input.full_name,
+khram-spas\app\actions\schedule.ts:273:    .select('id, full_name, role, link_code, telegram_chat_id')
+khram-spas\app\actions\schedule.ts:274:    .order('full_name')
+khram-spas\app\actions\schedule.ts:308:  await admin.from('profiles').update({ role: newRole }).eq('id', profileId).neq('role', 'abbot')
+khram-spas\app\actions\schedule.ts:381:  await admin.from('profiles').update({ full_name: newName }).eq('id', profileId)
+khram-spas\app\actions\schedule.ts:410:  await admin.from('profiles').upsert({ id: userId, full_name: input.name, role: 'altarnik' })
+khram-spas\app\actions\schedule.ts:452:export async function createRegent(input: { full_name: string; email: string; password: string }) {
+khram-spas\app\actions\schedule.ts:460:    id: authUser.user.id, full_name: input.full_name, role: 'regent', link_code: linkCode,
+khram-spas\app\actions\schedule.ts:516:export async function loadAbbotInfo(): Promise<{ full_name: string; phone: string | null } | null> {
+khram-spas\app\actions\schedule.ts:520:    .select('full_name, phone')
+khram-spas\app\actions\schedule.ts:521:    .eq('role', 'abbot')
+khram-spas\app\actions\psalter.ts:30:  reader_name: string
+khram-spas\app\actions\psalter.ts:60:  reader_name: string
+khram-spas\app\actions\psalter.ts:74:        reader_name: input.reader_name,
+khram-spas\app\actions\psalter.ts:89:        reader_name: input.reader_name,
+khram-spas\app\actions\psalter.ts:142:    .select('reading_time, reader_name')
+khram-spas\app\actions\psalter.ts:217:  reader_name: string
+khram-spas\app\actions\psalter.ts:238:      reader_name: input.reader_name.trim(),
+khram-spas\app\actions\psalter.ts:249:    `👤 ${input.reader_name}\n` +
+khram-spas\app\actions\staff.ts:18:  full_name: string
+khram-spas\app\actions\staff.ts:32:    .select('id, full_name, role, extra_roles, link_code, telegram_chat_id, max_chat_id, phone, last_seen')
+khram-spas\app\actions\staff.ts:36:    .order('full_name')
+khram-spas\app\actions\staff.ts:64:  full_name: string
+khram-spas\app\actions\staff.ts:75:    .select('id, full_name, role, link_code, telegram_chat_id, max_chat_id')
+khram-spas\app\actions\staff.ts:78:    .order('full_name')
+khram-spas\app\actions\staff.ts:95:  full_name: string
+khram-spas\app\actions\staff.ts:125:    full_name: input.full_name,
+khram-spas\app\actions\staff.ts:214:  await admin.from('profiles').update({ full_name: fullName.trim() }).eq('id', profileId)
+khram-spas\app\api\telegram\webhook\route.ts:31:    // Синхронизируем профиль — чтобы уведомления для abbot/admin тоже работали
+khram-spas\app\api\telegram\webhook\route.ts:53:    .select('id, full_name')
+khram-spas\app\api\telegram\webhook\route.ts:60:      `✅ <b>${profile.full_name}</b>, Telegram успешно привязан!\n\n` +
+khram-spas\app\actions\role-settings.ts:59:  if (role === 'abbot' || role === 'developer') {
+khram-spas\app\actions\slots.ts:109:  parishioner_name: string
+khram-spas\app\actions\slots.ts:145:    parishioner_name: input.parishioner_name,
+khram-spas\app\actions\slots.ts:174:    `👤 ${input.parishioner_name}\n` +
+khram-spas\app\actions\slots.ts:205:        `👤 ${input.parishioner_name}\n` +
+khram-spas\app\actions\slots.ts:224:      `📅 ${dateLabel}\n⏱ ${timeLabel}\n👤 ${input.parishioner_name} · ${input.parishioner_phone}`
+khram-spas\app\actions\slots.ts:237:      `📅 ${dateLabel}\n⏱ ${timeLabel}\n🏛 ${locationLabel}\n👤 ${input.parishioner_name} · ${input.parishioner_phone}`
+khram-spas\app\actions\slots.ts:249:        `👤 ${input.parishioner_name}\n` +
+khram-spas\app\actions\slots.ts:362:  parishioner_name: string | null
+khram-spas\app\actions\slots.ts:370:    .select('id, rite_slot_id, booking_type, parishioner_name, parishioner_phone, notes, status')
+khram-spas\app\api\telegram\notify\route.ts:49:          profile:profiles(full_name, telegram_chat_id)
+khram-spas\app\api\telegram\notify\route.ts:105:          profile:profiles(full_name, telegram_chat_id)
+khram-spas\app\api\max\webhook\route.ts:27:    // Синхронизируем профиль — чтобы уведомления для abbot/admin тоже работали
+khram-spas\app\api\max\webhook\route.ts:48:    .select('id, full_name')
+khram-spas\app\api\max\webhook\route.ts:55:      `✅ ${profile.full_name}, Max успешно привязан!\n\nВы будете получать уведомления.`
+khram-spas\app\api\cron\booking-escalation\route.ts:46:    .select('id, booking_type, parishioner_name, parishioner_phone, created_at, priest_id, scheduled_date')
+khram-spas\app\api\cron\booking-escalation\route.ts:55:    .select('id, booking_type, parishioner_name, parishioner_phone, accepted_at, priest_id, scheduled_date')
+khram-spas\app\api\cron\booking-escalation\route.ts:95:        `  👤 ${b.parishioner_name ?? '—'}${b.parishioner_phone ? ` (${b.parishioner_phone})` : ''}\n` +
+khram-spas\app\api\cron\booking-escalation\route.ts:112:        `  👤 ${b.parishioner_name ?? '—'}${b.parishioner_phone ? ` (${b.parishioner_phone})` : ''}\n` +
+khram-spas\app\api\cron\booking-escalation\route.ts:123:  const { data: abbot } = await admin
+khram-spas\app\api\cron\booking-escalation\route.ts:126:    .eq('role', 'abbot')
+khram-spas\app\api\cron\booking-escalation\route.ts:127:  await notifyUsers(abbot ?? [], msg)
+khram-spas\app\api\cron\reminders\route.ts:86:    .select('rite_slot_id, booking_type, parishioner_name, parishioner_phone, notes, scheduled_time, location, choir_requested, decor_requested')
+khram-spas\app\api\cron\reminders\route.ts:95:    .select('parishioner_name, parishioner_phone, scheduled_time, notes')
+khram-spas\app\api\cron\reminders\route.ts:208:        lines.push(`   ${time} · ${riteName} — ${b.parishioner_name ?? '—'} ${b.parishioner_phone ? `(${b.parishioner_phone})` : ''}`)
+khram-spas\app\api\cron\reminders\route.ts:221:          lines.push(`   ${time} · ${c.parishioner_name ?? '—'} ${c.parishioner_phone ? `(${c.parishioner_phone})` : ''}`)
+khram-spas\app\api\cron\reminders\route.ts:279:            lines.push(`⏱ ${time} · ${riteName} — ${b.parishioner_name ?? '—'} · ${locName}`)
+khram-spas\app\api\cron\reminders\route.ts:320:          lines.push(`⏱ ${time} · ${riteName} — ${b.parishioner_name ?? '—'} · ${locName}`)
+khram-spas\app\api\cron\funeral-followup\route.ts:33:    .select('id, parishioner_name, parishioner_phone, scheduled_date, notes, created_at')
+khram-spas\app\api\cron\funeral-followup\route.ts:56:      `👤 ${b.parishioner_name ?? '—'}\n` +
+khram-spas\app\api\cron\funeral-followup\route.ts:68:  const { data: abbots } = await admin
+khram-spas\app\api\cron\funeral-followup\route.ts:71:    .in('role', ['abbot', 'admin'])
+khram-spas\app\api\cron\funeral-followup\route.ts:73:  await notifyUsers(abbots ?? [], text)
+khram-spas\app\api\cron\task-overdue\route.ts:17:  admin: 'Администратор', abbot: 'Настоятель',
+khram-spas\app\api\cron\task-overdue\route.ts:51:    .in('role', ['abbot', 'admin'])
+khram-spas\app\api\cron\task-overdue\route.ts:74:        .from('profiles').select('id, full_name, role').in('id', assigneeIds)
+khram-spas\app\api\cron\task-overdue\route.ts:75:      for (const p of profiles ?? []) nameMap[p.id] = { name: p.full_name, role: p.role }
+khram-spas\app\api\cron\task-overdue\route.ts:95:    .select('id, booking_type, parishioner_name, parishioner_phone, created_at, priest_id, scheduled_date')
+khram-spas\app\api\cron\task-overdue\route.ts:108:    .select('id, booking_type, parishioner_name, parishioner_phone, accepted_at, priest_id, scheduled_date')
+khram-spas\app\api\cron\task-overdue\route.ts:141:          `  👤 ${b.parishioner_name ?? '—'}${b.parishioner_phone ? ` (${b.parishioner_phone})` : ''}\n` +
+khram-spas\app\api\cron\task-overdue\route.ts:156:          `  👤 ${b.parishioner_name ?? '—'}${b.parishioner_phone ? ` (${b.parishioner_phone})` : ''}\n` +
+khram-spas\types\index.ts:2:  | 'abbot' | 'admin' | 'moderator' | 'developer' | 'priest' | 'deacon'
+khram-spas\types\index.ts:45:  full_name: string
+khram-spas\types\index.ts:101:  parishioner_name: string | null

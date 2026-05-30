@@ -1,0 +1,21 @@
+# Memory Index
+
+- [Язык общения](feedback_language.md) — всегда общаться на русском языке
+- [Правило памяти](feedback_memory_rule.md) — сразу фиксировать важные факты (деплой, сервисы, решения, антипаттерны)
+- [Профиль пользователя](user_profile.md) — Александр, Нидерланды, рилсмейкер/продюсер, 45k IG / 130k YT, цель 12 млн ₽ за 12 мес
+- [Делать самому](feedback_do_it_yourself.md) — всегда выполнять задачи самостоятельно, не давать инструкции пользователю
+- [Railway деплой бота](project_railway.md) — бот на Railway (caring-endurance), НЕ запускать локально
+- [Supabase токен](project_supabase.md) — personal access token для Management API, создания таблиц без SQL Editor
+- [Supabase логин](project_supabase_login.md) — логин через email 89117508009@mail.ru (не GitHub, не gmail); проекты: khram-spas, Potok
+- [Manychat](project_manychat.md) — подключён к проекту, карта *6507, платёж 29.05.2026
+- [Дизайн-предпочтения](user_design_preferences.md) — любимые палитры: old money (Ivory & Gold, Forest Green, Mahogany, Bordeaux, Oxford Navy)
+- [Подтверждение перед действием](feedback_confirm_before_action.md) — всегда уточнять scope и показывать SQL/действие перед выполнением любых изменений данных
+- [Большие задачи — этапами](feedback_large_tasks.md) — сначала написать список этапов и согласовать, потом выполнять по одному
+- [Лог обновлений](feedback_updates_log.md) — после каждой сессии добавлять запись в data/updates.json; 1-го числа — monthly итог
+- [Max бот — план](project_max_bot.md) — запланировано: добавить Max как альтернативу Telegram в khram-spas (5 этапов, ждёт токена от @metabot)
+- [Редизайн записи прихожан](project_booking_redesign.md) — запланировано: новая /book со слотами, православным календарём, ролью свечницы (ждёт ответов на 5 вопросов)
+- [Роль секретаря настоятеля](project_secretary_role.md) — добавлена роль secretary: canEditAbbot, уведомления о встречах/обращениях, задачи настоятеля
+- [CodeChief — платформа](project_codechief.md) — запланировано: AI-платформа (CTO Review + Daily Debrief), Next.js + Supabase + Railway, готовый промт
+- [TaskFlow Supabase](project_taskflow_supabase.md) — новый аккаунт yandex.ru, org TaskFlow, DB pass TaskFlow2026!Secure#
+- [Не переключать проект молча](feedback_wrong_project.md) — если задача из другого проекта — предупредить и уточнить
+- [Архитектура стиля](project_style_architecture.md) — каждый проект имеет уникальный стиль из своих данных; при нехватке данных — универсальный fallback

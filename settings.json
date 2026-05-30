@@ -1,0 +1,188 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(taskkill /F /IM node.exe 2>$null)",
+      "PowerShell(Start-Process -FilePath \"cmd.exe\" -ArgumentList \"/c cd /d C:\\\\Users\\\\89117\\\\studio && node bot.js > bot.log 2>&1\" -WindowStyle Hidden)",
+      "PowerShell(Get-WmiObject Win32_Process -Filter \"Name='node.exe' AND CommandLine LIKE '%bot.js%'\")",
+      "PowerShell(where.exe claude 2>$null; \\(Get-Command claude -ErrorAction SilentlyContinue\\).Source)",
+      "Read(//c/Program Files/**)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Write(*)",
+      "Edit(*)",
+      "Bash(*)",
+      "PowerShell(*)",
+      "WebSearch",
+      "WebFetch(domain:otzovik.com)",
+      "WebFetch(domain:otzyvmarketing.ru)",
+      "WebFetch(domain:apify.com)",
+      "WebFetch(domain:azbyka.ru)",
+      "WebFetch(domain:xn--80aaaua1acoffoxc.xn--p1ai)",
+      "WebFetch(domain:xn--80aaciimf4ajqbk0b.xn--p1ai)",
+      "WebFetch(domain:static.tildacdn.com)",
+      "WebFetch(domain:clubproryv.ru)",
+      "WebFetch(domain:dev.max.ru)",
+      "WebFetch(domain:studio-cabinet.vercel.app)",
+      "Bash(mkdir -p \"C:/Users/89117/.claude/handoff/archive\")",
+      "Bash(mv \"C:/Users/89117/.claude/handoff/codechief.md\" \"C:/Users/89117/.claude/handoff/archive/codechief.md\")",
+      "WebFetch(domain:www.tavus.io)"
+    ],
+    "defaultMode": "bypassPermissions",
+    "additionalDirectories": [
+      "C:\\Users\\89117\\studio\\public\\uploads",
+      "C:\\Users\\89117\\studio",
+      "C:\\Users\\89117\\.claude",
+      "C:\\Users\\89117\\ObsidianStudioCabinet",
+      "C:\\Users\\89117\\.claude\\projects\\C--Users-89117\\ee92227b-9202-4ba1-8ead-1535982a080e\\tool-results",
+      "C:\\Users\\89117\\.claude\\secrets"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node C:\\Users\\89117\\.claude\\notify.js"
+          }
+        ]
+      },
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/vault-save-reminder.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/gsd-check-update.js\""
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/Git/bin/bash.exe\" \"C:/Users/89117/.claude/hooks/gsd-session-state.sh\""
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/handoff-starter.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash|Edit|Write|MultiEdit|Agent|Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/gsd-context-monitor.js\"",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/efficiency-advisor.js\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/gsd-read-injection-scanner.js\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/Git/bin/bash.exe\" \"C:/Users/89117/.claude/hooks/gsd-phase-boundary.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/secret-scanner.js\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/gsd-prompt-guard.js\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/gsd-read-guard.js\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/gsd-workflow-guard.js\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/Git/bin/bash.exe\" \"C:/Users/89117/.claude/hooks/gsd-validate-commit.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/gsd-statusline.js\""
+  }
+}

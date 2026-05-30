@@ -1,0 +1,450 @@
+<ide_diagnostics>[
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1460,
+    "column": 12,
+    "message": "CSS inline styles should not be used, move styles to an external CSS file",
+    "code": "[object Object]",
+    "severity": "Warning"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 547,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 559,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 571,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 583,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 615,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 674,
+    "column": 28,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 709,
+    "column": 30,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 792,
+    "column": 32,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 845,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 851,
+    "column": 14,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 869,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 887,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 923,
+    "column": 16,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 941,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 970,
+    "column": 14,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 984,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1007,
+    "column": 18,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1087,
+    "column": 32,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1124,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1189,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1229,
+    "column": 14,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1245,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1267,
+    "column": 18,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1311,
+    "column": 32,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1341,
+    "column": 32,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1377,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1460,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1481,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1517,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1549,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1555,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1578,
+    "column": 22,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1615,
+    "column": 36,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1643,
+    "column": 36,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1679,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1737,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1759,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1776,
+    "column": 22,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1812,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1827,
+    "column": 18,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1860,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1865,
+    "column": 14,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1890,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1922,
+    "column": 18,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1944,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1959,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1981,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1993,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 2015,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 2059,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 2073,
+    "column": 10,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 2110,
+    "column": 12,
+    "message": "Button type attribute has not been set.",
+    "code": "[object Object]",
+    "severity": "Hint"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1493,
+    "column": 14,
+    "message": "Form elements must have labels: Element has no title attribute Element has no placeholder attribute",
+    "code": "[object Object]",
+    "severity": "Error"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 1909,
+    "column": 14,
+    "message": "Form elements must have labels: Element has no title attribute Element has no placeholder attribute",
+    "code": "[object Object]",
+    "severity": "Error"
+  },
+  {
+    "filePath": "/c:/Users/89117/khram-spas/components/booking/BookingView.tsx",
+    "line": 2046,
+    "column": 14,
+    "message": "Form elements must have labels: Element has no title attribute Element has no placeholder attribute",
+    "code": "[object Object]",
+    "severity": "Error"
+  }
+]</ide_diagnostics>

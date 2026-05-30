@@ -1,0 +1,325 @@
+{
+    "data":  {
+                 "workspace":  {
+                                   "id":  "2f8097b3-3091-451c-821c-7376d6ed1c38",
+                                   "name":  "skvortsovproduction2020-sudo\u0027s Projects",
+                                   "projects":  {
+                                                    "edges":  [
+                                                                  {
+                                                                      "node":  {
+                                                                                   "id":  "4ab818df-47cf-48fb-bdfc-8404b080de68",
+                                                                                   "name":  "caring-endurance",
+                                                                                   "services":  {
+                                                                                                    "edges":  [
+                                                                                                                  {
+                                                                                                                      "node":  {
+                                                                                                                                   "id":  "bc37c8e3-13cd-42e0-b931-4a468ac3100b",
+                                                                                                                                   "name":  "studio-cabinet",
+                                                                                                                                   "deployments":  {
+                                                                                                                                                       "edges":  [
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "8f68a68e-6e66-406c-b07f-7efa8822e571",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T17:28:48.903Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "762e8be9-d1cc-42ac-8f12-de09f15a6cb1",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T17:10:05.699Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "e3314d99-797e-45a1-9a2c-24b4cd9c8854",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T17:08:03.485Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "31e1fd60-bbe7-4cdb-afc9-c821ac5fe8c3",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:59:26.171Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "e499e7cd-a39f-4bb7-b749-71265ba99921",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:56:51.962Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "ecd6122b-c990-4f58-836e-9339b27707c1",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:54:25.425Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "6f9d32da-32c6-4b15-b358-de3247a5af7f",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:54:24.670Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "68cc2d39-8deb-42a2-840f-cb09f72b626e",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:40:52.400Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "57136a3f-b3d3-4c38-a5de-bcfc6083de5c",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:56:22.192Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "dda68cba-86e2-4aed-b54b-55f6a004da13",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:48:52.653Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "ed71c9a0-d447-4538-bdc4-80f073480bf3",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:46:39.403Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "ca8e8ea3-2054-438a-9b03-d7e87b7bf402",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:20:21.957Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "1fcac946-cd78-418e-b29b-d01ba062ab6d",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:04:20.883Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "a0128a2c-b804-4cc4-868a-149249eea2c6",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T12:51:13.562Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "8d4223bb-3a79-4741-8e1b-5996f2ce139d",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T20:10:28.916Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "57a6b78b-4005-4484-a879-a018c1db0bcc",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T20:06:08.878Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "e8664718-0c77-4ecb-907d-f9fcebe47e7c",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T20:02:45.124Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "3f7ffc2e-4e33-4683-a239-d6710780f3fe",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T19:56:01.129Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "fcc90071-e1be-4611-9182-0cf0d6421899",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T10:26:29.140Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "602f560d-b4b8-471d-9236-68812fc7960d",
+                                                                                                                                                                                      "status":  "SUCCESS",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T10:16:52.130Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     }
+                                                                                                                                                                 ]
+                                                                                                                                                   }
+                                                                                                                               }
+                                                                                                                  }
+                                                                                                              ]
+                                                                                                }
+                                                                               }
+                                                                  },
+                                                                  {
+                                                                      "node":  {
+                                                                                   "id":  "64e7efe9-afbb-4fe8-8cd4-189ee18a3bb3",
+                                                                                   "name":  "virtuous-spontaneity",
+                                                                                   "services":  {
+                                                                                                    "edges":  [
+                                                                                                                  {
+                                                                                                                      "node":  {
+                                                                                                                                   "id":  "b39dc882-3cca-435c-aae3-88418711f03d",
+                                                                                                                                   "name":  "studio-cabinet",
+                                                                                                                                   "deployments":  {
+                                                                                                                                                       "edges":  [
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "05736f40-1d41-444e-b302-8c4e6d0e786c",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T17:28:48.642Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "159f163a-56b9-4167-b013-7543ab5728f7",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T17:10:05.461Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "3d791067-c3c7-4c5f-8eb1-cf9a6d258d1c",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T17:08:03.139Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "da81d688-c572-4ac3-b935-858d6da4893a",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:59:25.823Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "c21a2d83-7415-4d0e-abb3-7565720c309a",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:56:51.542Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "41ae1323-942a-4661-96a4-a27e2bdb959e",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:54:24.984Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "cd111c79-b39f-489a-beb2-5a6adba05718",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:54:24.293Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "16a3a4f5-ddac-4f8e-89f5-d9cad948f971",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T16:40:51.999Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "62948401-ca2b-48b9-afe0-a6179be2f613",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:56:21.917Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "35214d51-d8a0-4857-b6b0-befb3792207c",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:48:52.352Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "ea8e7502-d0b0-4f01-bbc8-15042197f689",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:46:39.147Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "b3f15da6-e8b6-46d2-b87c-b4e2faf70200",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:20:21.570Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "feb53ab3-2de5-4d39-badc-d6848303785e",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T13:04:20.495Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "0ab0d413-39b3-44fb-a2f3-e6dd8aefdf72",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-15T12:51:13.165Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "450ca0db-de44-4324-a9b2-7e7adffa048f",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T20:10:28.564Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "1a5a704f-d0a8-413b-b602-6c92c11745b6",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T20:06:08.472Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "812375c3-2a5c-484a-bfcf-ff1818caf329",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T20:02:44.763Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "3f6f7c9d-e7d0-40ed-bf40-08fae2bded6f",
+                                                                                                                                                                                      "status":  "FAILED",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T10:26:28.895Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "node":  {
+                                                                                                                                                                                      "id":  "76f7ca09-e7cf-40d7-a7f0-4dbf159c768e",
+                                                                                                                                                                                      "status":  "SUCCESS",
+                                                                                                                                                                                      "createdAt":  "2026-05-14T10:16:51.947Z"
+                                                                                                                                                                                  }
+                                                                                                                                                                     }
+                                                                                                                                                                 ]
+                                                                                                                                                   }
+                                                                                                                               }
+                                                                                                                  }
+                                                                                                              ]
+                                                                                                }
+                                                                               }
+                                                                  }
+                                                              ]
+                                                }
+                               }
+             }
+}
