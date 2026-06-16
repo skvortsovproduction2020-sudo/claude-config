@@ -4,7 +4,7 @@
 Веб-приложение для прихода: расписание богослужений, запись прихожан, роли для всего персонала, уведомления через Telegram и Max, православный календарь.
 
 ## 📍 ТЕКУЩЕЕ СОСТОЯНИЕ
-*Обновлено: 2026-06-14 (сессия 37)*
+*Обновлено: 2026-06-16 (сессия 38)*
 
 - [x] Next.js приложение на Railway (`npm start`)
 - [x] 23+ роли: abbot, admin, priest, deacon, altarnik, senior_altarnik, regent, secretary, florist, candle_seller, cleaner, cook, security, it_staff, developer, moderator, **staff** + функциональные
