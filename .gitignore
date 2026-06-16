@@ -8,3 +8,5 @@ file-history/
 .credentials.json
 .last-cleanup
 efficiency-state.json
+telemetry/
+shell-snapshots/

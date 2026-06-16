@@ -25,7 +25,17 @@
       "WebFetch(domain:studio-cabinet.vercel.app)",
       "Bash(mkdir -p \"C:/Users/89117/.claude/handoff/archive\")",
       "Bash(mv \"C:/Users/89117/.claude/handoff/codechief.md\" \"C:/Users/89117/.claude/handoff/archive/codechief.md\")",
-      "WebFetch(domain:www.tavus.io)"
+      "WebFetch(domain:www.tavus.io)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\89117\\\\khram-spas\\\\.claude\\\\handoff\")",
+      "Bash(cp \"C:\\\\Users\\\\89117\\\\.claude\\\\handoff\\\\khram-spas.md\" \"C:\\\\Users\\\\89117\\\\khram-spas\\\\.claude\\\\handoff\\\\khram-spas.md\")",
+      "WebFetch(domain:docs.salebot.pro)",
+      "WebFetch(domain:biz.mann-ivanov-ferber.ru)",
+      "WebFetch(domain:www.livelib.ru)",
+      "WebFetch(domain:www.mann-ivanov-ferber.ru)",
+      "WebFetch(domain:www.labirint.ru)",
+      "WebFetch(domain:www.goodreads.com)",
+      "WebFetch(domain:litres.com)",
+      "WebFetch(domain:batyrev.com)"
     ],
     "defaultMode": "bypassPermissions",
     "additionalDirectories": [
@@ -34,7 +44,9 @@
       "C:\\Users\\89117\\.claude",
       "C:\\Users\\89117\\ObsidianStudioCabinet",
       "C:\\Users\\89117\\.claude\\projects\\C--Users-89117\\ee92227b-9202-4ba1-8ead-1535982a080e\\tool-results",
-      "C:\\Users\\89117\\.claude\\secrets"
+      "C:\\Users\\89117\\.claude\\secrets",
+      "C:\\Users\\89117\\khram-spas\\.claude",
+      "C:\\Users\\89117\\.claude\\handoff"
     ]
   },
   "hooks": {
@@ -87,6 +99,16 @@
       }
     ],
     "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:/Program Files/nodejs/node.exe\" \"C:/Users/89117/.claude/hooks/handoff-sync.js\"",
+            "timeout": 15
+          }
+        ]
+      },
       {
         "matcher": "Bash|Edit|Write|MultiEdit|Agent|Task",
         "hooks": [
