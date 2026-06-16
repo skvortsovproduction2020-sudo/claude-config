@@ -692,3 +692,27 @@ lib/booking-constants.ts           — BOOKING_TYPE_LABELS, PERSONAL_TYPES, TEMP
 - Тексты о таинствах (Крещение и Венчание) — Александр пришлёт
 - Свечница: `/start [код]` боту @id7813204684_bot
 - Ответ от отца Серафима: при клике в календаре открывать модалку или переключать в список?
+
+---
+
+## ✅ ПОСЛЕДНЯЯ СЕССИЯ
+*Дата: 2026-06-16 (сессия 38)*
+
+### Сессия 38: Автосинхронизация handoff между Александром и отцом Серафимом
+
+**Что сделали:**
+
+1. **Репо GitHub публичное** — `github.com/skvortsovproduction2020-sudo/claude-config` открыт для чтения без авторизации
+
+2. **hooks/handoff-sync.js** — PostToolUse хук на машине Александра: при каждом сохранении любого handoff-файла автоматически делает `git add + commit + push` на GitHub
+
+3. **hooks/handoff-pull.js** — SessionStart хук для отца Серафима: при каждом старте Claude Code делает `git fetch + checkout handoff/` с GitHub
+
+4. **setup-serafim-mac.sh** — установочный скрипт для Mac (bash). Запускается одной командой curl. Исправлен баг с путём команды в settings.json (Python adjacent string concatenation)
+
+5. **Синхронизация протестирована и работает** — тестовая строка добавлена на машине Александра, появилась у отца Серафима после перезапуска Claude Code ✅
+
+**Машина отца Серафима:**
+- Mac, username `seraphimdeines`, путь `/Users/seraphimdeines/.claude/`
+- Node.js: `/usr/local/bin/node`
+- Хук настроен в `~/.claude/settings.json`
