@@ -41,44 +41,49 @@ NODE_PATH=$(which node 2>/dev/null || echo "/usr/local/bin/node")
 echo "✅ Node.js: $NODE_PATH"
 
 # 6. Добавить SessionStart хук в settings.json
-HOOK_COMMAND="\"$NODE_PATH\" \"$HOOKS_DIR/handoff-pull.js\""
+HOOK_COMMAND="$NODE_PATH $HOOKS_DIR/handoff-pull.js"
 
 if [ ! -f "$SETTINGS_FILE" ]; then
     echo '{"hooks":{}}' > "$SETTINGS_FILE"
 fi
 
-# Проверить есть ли уже хук
+# Проверить есть ли уже хук (удалить старый если неправильный)
 if grep -q "handoff-pull.js" "$SETTINGS_FILE" 2>/dev/null; then
-    echo "✅ Хук уже настроен"
-else
-    # Добавить SessionStart хук через python3 (есть на всех Mac)
-    python3 - <<PYEOF
+    echo "⚠️  Удаляю старый хук и перезаписываю..."
+fi
+
+# Добавить SessionStart хук через python3 (есть на всех Mac)
+python3 - "$SETTINGS_FILE" "$HOOK_COMMAND" <<'PYEOF'
 import json, sys
 
-with open("$SETTINGS_FILE", "r") as f:
+settings_file = sys.argv[1]
+hook_cmd = sys.argv[2]
+
+with open(settings_file, "r") as f:
     settings = json.load(f)
 
 if "hooks" not in settings:
     settings["hooks"] = {}
-if "SessionStart" not in settings["hooks"]:
-    settings["hooks"]["SessionStart"] = []
 
-new_hook = {
+# Убрать старые handoff хуки чтобы не дублировались
+sessions = settings["hooks"].get("SessionStart", [])
+sessions = [h for h in sessions if "handoff-pull" not in str(h)]
+
+sessions.append({
     "hooks": [{
         "type": "command",
-        "command": $HOOK_COMMAND,
+        "command": hook_cmd,
         "timeout": 15
     }]
-}
+})
 
-settings["hooks"]["SessionStart"].append(new_hook)
+settings["hooks"]["SessionStart"] = sessions
 
-with open("$SETTINGS_FILE", "w") as f:
+with open(settings_file, "w") as f:
     json.dump(settings, f, indent=2, ensure_ascii=False)
 
 print("✅ Хук SessionStart добавлен в settings.json")
 PYEOF
-fi
 
 echo ""
 echo "=== Готово! ==="
