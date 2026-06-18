@@ -46,6 +46,9 @@ SaaS для контент-мейкеров: генерация сценарие
 - [x] **Интеграция amoCRM** — полный цикл: sync → transcribe → analyze → insights в профиле клиента
 - [x] **Модуль «Переговоры»** — загрузка аудио через Supabase JS client (CORS fix), Яндекс.Диск, расшифровка, протокол, анализ, КП
 - [x] **КП: комментарии + стиль** — `kp_comments` per-переговор + `kp_style` global в `user_settings`, инжект в prompt
+- [x] **Модели переговоров → Opus 4.8** — analyze, kp, protocol, analyze-call переведены на claude-opus-4-8
+- [x] **Открепить встречу** — кнопка UserRoundPlus на карточке встречи → создаёт новый контакт + переносит встречу
+- [x] **Синхронизация данных контакта** — при редактировании контакта обновляются client_name/company во всех его встречах
 - [x] **API /api/user-settings/kp-style** — GET/POST стиля КП
 - [x] **JSON parsing fix** — markdown-обёртки ` ```json ``` ` и ` ```html ``` ` от Claude стрипаются перед парсингом
 - [x] **Яндекс.Диск в переговорах** — бот (`pollNegotiations()`) скачивает файл, извлекает аудио ffmpeg, транскрибирует через Groq
