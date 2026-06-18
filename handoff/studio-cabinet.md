@@ -159,7 +159,7 @@ components/Sidebar.js                     — навигация
 - **Фронт**: Vercel (автодеплой из main, ~1 мин)
 - **Боты**: Railway, проект `caring-endurance`, команда `node start.js`
 - **БД**: Supabase `rrcqpdbnurtdcqposqoe`
-- **AI**: claude-haiku-4-5-20251001 (посты/идеи), claude-sonnet-4-6 (анализ сайта, DM, воронки), claude-opus-4-8 (транскрипция, профиль стиля), Groq Whisper
+- **AI**: claude-haiku-4-5-20251001 (посты/идеи), claude-sonnet-4-6 (анализ сайта, DM, воронки, save-kp-style), claude-opus-4-8 (переговоры: analyze/kp/protocol/analyze-call, транскрипция, профиль стиля), Groq Whisper
 
 ## 🗑 АРХИТЕКТУРА УДАЛЁННЫХ ЭЛЕМЕНТОВ (TG-анализ)
 
