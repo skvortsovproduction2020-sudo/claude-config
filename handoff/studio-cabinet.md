@@ -765,7 +765,7 @@ const { error } = await supabase.rpc('exec_migration', { migration_sql: 'ALTER T
 
 ### ➡️ Следующий шаг
 
-**0. Удалить старые страницы** (после проверки что /crm работает):
+**0. Удалить старые страницы** (после проверки что /crm работает — уже проверено, можно удалять):
 - `app/dashboard/negotiations/` → удалить
 - `app/dashboard/invoices/` → удалить
 
